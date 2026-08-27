@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/startec-hub/sw.js', { scope: '/startec-hub/' })})}
